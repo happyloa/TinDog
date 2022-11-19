@@ -7,7 +7,6 @@ import CalltoAction from "../components/CalltoAction";
 import Footer from "../components/Footer";
 
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
