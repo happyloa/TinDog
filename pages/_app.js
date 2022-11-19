@@ -1,8 +1,11 @@
-import Head from "next/head";
-
+// 引入 Bootstrap 的樣式檔案
+import "bootstrap/dist/css/bootstrap.css";
+// 引入全域樣式
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+import Head from "next/head";
+
+export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -14,5 +17,3 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;
