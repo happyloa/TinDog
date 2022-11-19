@@ -1,5 +1,12 @@
+import Title from "../components/Title";
+import Features from "../components/Features";
+import Testimonials from "../components/Testimonials";
+import Press from "../components/Press";
+import Pricing from "../components/Pricing";
+import CalltoAction from "../components/CalltoAction";
+import Footer from "../components/Footer";
+
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -8,6 +15,13 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
+      <Title />
+      <Features />
+      <Testimonials />
+      <Press />
+      <Pricing />
+      <CalltoAction />
+      <Footer />
     </div>
   );
 }
