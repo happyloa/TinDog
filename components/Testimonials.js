@@ -2,8 +2,8 @@ export default function Testimonials() {
   return (
     <section id="testimonials">
       <h2>
-        I no longer have to sniff other dogs for love. I've found the hottest
-        Corgi on TinDog. Woof.
+        I no longer have to sniff other dogs for love. I&apos;ve found the
+        hottest Corgi on TinDog. Woof.
       </h2>
       <img src="/dog-img.jpg" alt="dog-profile" />
       <em>Pebbles, New York</em>

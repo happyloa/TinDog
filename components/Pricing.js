@@ -1,7 +1,7 @@
 export default function Pricing() {
   return (
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
+      <h2>A Plan for Every Dog&apos;s Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
 
       <h3>Chihuahua</h3>

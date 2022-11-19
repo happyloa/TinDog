@@ -8,7 +8,7 @@ export default function Features() {
       <p>We have all the dogs, the greatest dogs.</p>
 
       <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+      <p>Find the love of your dog&apos;s life or your money back.</p>
     </section>
   );
 }
