@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>TinDog - Meet interesting dogs nearby</title>
       </Head>
       <Title />
       <Features />
