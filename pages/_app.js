@@ -1,12 +1,18 @@
 // 引入 Bootstrap 的樣式檔案
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 // 引入全域樣式
 import "../styles/globals.css";
 import NavBar from "../components/NavBar";
 
+import { useEffect } from "react";
 import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }) {
+  // 引入 Bootstrap 的程式碼檔案
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
+
   return (
     <>
       <Head>
