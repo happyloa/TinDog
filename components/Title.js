@@ -1,13 +1,10 @@
-export default function Title() {
+export default function Title(props) {
   return (
     <section id="title">
-      {/* Nav Bar */}
-
-      {/* Title */}
       <div>
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+        <h1>{props.headingText}</h1>
+        <button type="button">{props.cta}</button>
+        <button type="button">{props.cta}</button>
       </div>
       <div>
         <img src="/iphone6.png" alt="iphone-mockup" />
