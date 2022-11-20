@@ -12,9 +12,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>TinDog - Meet interesting dogs nearby</title>
+        <title>TinDog - Meet new and interesting dogs nearby</title>
       </Head>
-      <Title />
+      <Title
+        headingText="Meet new and interesting dogs nearby."
+        cta="Download"
+      />
       <Features />
       <Testimonials />
       <Press />
