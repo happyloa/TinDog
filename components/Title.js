@@ -1,8 +1,14 @@
 // 引入 Styled Components 套件
 import styled from "styled-components";
+// 引入 NavBar 元件
+import NavBar from "../components/NavBar";
 
-const TitleSection = styled.section`
+const StyledSection = styled.section`
   background-color: #ff4c68;
+`;
+
+const ContainerFluid = styled.div`
+  padding: 3% 15%;
 `;
 
 const TitleH1 = styled.h1`
@@ -14,17 +20,20 @@ const TitleH1 = styled.h1`
 
 export default function Title(props) {
   return (
-    <TitleSection id="title">
-      <div className="row">
-        <div className="col-12 col-md-6">
-          <TitleH1>{props.headingText}</TitleH1>
-          <button type="button">{props.cta}</button>
-          <button type="button">{props.cta}</button>
+    <StyledSection id="title">
+      <ContainerFluid className="container-fluid">
+        <NavBar />
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <TitleH1>{props.headingText}</TitleH1>
+            <button type="button">{props.cta}</button>
+            <button type="button">{props.cta}</button>
+          </div>
+          <div className="col-12 col-md-6">
+            <img src="/iphone6.png" alt="iphone-mockup" />
+          </div>
         </div>
-        <div className="col-12 col-md-6">
-          <img src="/iphone6.png" alt="iphone-mockup" />
-        </div>
-      </div>
-    </TitleSection>
+      </ContainerFluid>
+    </StyledSection>
   );
 }
