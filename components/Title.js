@@ -1,6 +1,9 @@
 // 引入 Styled Components 套件
 import styled from "styled-components";
 
+// 引入 Font Awesome 的 Apple 與 Google Play icon
+import { FaApple, FaGooglePlay } from "react-icons/fa";
+
 // 引入 NavBar 元件
 import NavBar from "../components/NavBar";
 
@@ -29,10 +32,12 @@ export default function Title(props) {
           <div className="col-12 col-md-6">
             <TitleH1>{props.headingText}</TitleH1>
             <button type="button" className="btn btn-dark btn-lg">
+              <FaApple />
               &nbsp;
               {props.cta}
             </button>
             <button type="button" className="btn btn-outline-light btn-lg">
+              <FaGooglePlay />
               &nbsp;
               {props.cta}
             </button>
