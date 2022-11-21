@@ -1,10 +1,7 @@
 // 引入 Bootstrap 的樣式檔案
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// 引入 Font Awesome 的樣式與設定檔案
-import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-config.autoAddCss = false;
+
 
 // 引入全域樣式
 import "../styles/globals.css";

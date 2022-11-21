@@ -1,15 +1,12 @@
 // 引入 Styled Components 套件
 import styled from "styled-components";
 
-// 引入 Font Awesome 的 icon
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAppleWhole, faGooglePlay } from "@fortawesome/free-solid-svg-icons";
-
 // 引入 NavBar 元件
 import NavBar from "../components/NavBar";
 
 const StyledSection = styled.section`
   background-color: #ff4c68;
+  color: #ffffff;
 `;
 
 const ContainerFluid = styled.div`
@@ -32,12 +29,10 @@ export default function Title(props) {
           <div className="col-12 col-md-6">
             <TitleH1>{props.headingText}</TitleH1>
             <button type="button" className="btn btn-dark btn-lg">
-              <FontAwesomeIcon icon={faAppleWhole} />
               &nbsp;
               {props.cta}
             </button>
             <button type="button" className="btn btn-outline-light btn-lg">
-              <FontAwesomeIcon icon="fa-brands fa-google-play" />
               &nbsp;
               {props.cta}
             </button>
