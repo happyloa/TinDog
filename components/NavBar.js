@@ -1,13 +1,6 @@
-// 引入 Styled Components 套件
-import styled from "styled-components";
-
-const NavBarNav = styled.nav`
-  background-color: #ff4c68;
-`;
-
 export default function NavBar() {
   return (
-    <NavBarNav className="navbar navbar-dark navbar-expand-lg">
+    <nav className="navbar navbar-dark navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Tindog
@@ -42,6 +35,6 @@ export default function NavBar() {
           </ul>
         </div>
       </div>
-    </NavBarNav>
+    </nav>
   );
 }
