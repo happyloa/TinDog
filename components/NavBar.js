@@ -1,40 +1,47 @@
+// 引入 Styled Components 套件
+import styled from "styled-components";
+
+const NavBarNav = styled.nav`
+  background-color: #ff4c68;
+`;
+
 export default function NavBar() {
   return (
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <NavBarNav className="navbar navbar-dark navbar-expand-lg">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
           Tindog
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Contact
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Pricing
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Download
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </NavBarNav>
   );
 }
