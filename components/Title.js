@@ -1,5 +1,10 @@
 // 引入 Styled Components 套件
 import styled from "styled-components";
+
+// 引入 Font Awesome 的 icon
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAppleWhole, faGooglePlay } from "@fortawesome/free-solid-svg-icons";
+
 // 引入 NavBar 元件
 import NavBar from "../components/NavBar";
 
@@ -26,8 +31,16 @@ export default function Title(props) {
         <div className="row">
           <div className="col-12 col-md-6">
             <TitleH1>{props.headingText}</TitleH1>
-            <button type="button">{props.cta}</button>
-            <button type="button">{props.cta}</button>
+            <button type="button" className="btn btn-dark btn-lg">
+              <FontAwesomeIcon icon={faAppleWhole} />
+              &nbsp;
+              {props.cta}
+            </button>
+            <button type="button" className="btn btn-outline-light btn-lg">
+              <FontAwesomeIcon icon="fa-brands fa-google-play" />
+              &nbsp;
+              {props.cta}
+            </button>
           </div>
           <div className="col-12 col-md-6">
             <img src="/iphone6.png" alt="iphone-mockup" />
