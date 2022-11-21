@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>TinDog - Meet new and interesting dogs nearby</title>
+        <title>tindog - Meet new and interesting dogs nearby</title>
       </Head>
       <Title
         headingText="Meet new and interesting dogs nearby."
