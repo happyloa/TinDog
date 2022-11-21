@@ -1,10 +1,19 @@
+// 引入 Styled Components 套件
+import styled from "styled-components";
+
+const StyledAnchor = styled.a`
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+`;
+
 export default function NavBar() {
   return (
     <nav className="navbar navbar-dark navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Tindog
-        </a>
+        <StyledAnchor className="navbar-brand" href="#">
+          tindog
+        </StyledAnchor>
         <button
           className="navbar-toggler"
           type="button"
