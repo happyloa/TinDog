@@ -17,7 +17,6 @@ const ContainerFluid = styled.div`
 `;
 
 const TitleH1 = styled.h1`
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
