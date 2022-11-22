@@ -15,10 +15,10 @@ const PressLogos = styled.img`
 export default function Press() {
   return (
     <StyledSection id="press">
-      <PressLogos src="/techcrunch.png" alt="tc-logo" />
-      <PressLogos src="/tnw.png" alt="tnw-logo" />
-      <PressLogos src="/bizinsider.png" alt="biz-insider-logo" />
-      <PressLogos src="/mashable.png" alt="mashable-logo" />
+      <PressLogos src="/press_logos/techcrunch.webp" alt="tc-logo" />
+      <PressLogos src="/press_logos/tnw.webp" alt="tnw-logo" />
+      <PressLogos src="/press_logos/bizinsider.webp" alt="biz-insider-logo" />
+      <PressLogos src="/press_logos/mashable.webp" alt="mashable-logo" />
     </StyledSection>
   );
 }
