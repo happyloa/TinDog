@@ -22,6 +22,10 @@ const TitleH1 = styled.h1`
 
 const CtaButton = styled.button`
   margin: 5% 3% 5% 0;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: translateY(-10px);
+  }
 `;
 
 const TitleImg = styled.img`
@@ -42,11 +46,11 @@ export default function Title(props) {
               &nbsp;
               {props.cta}
             </CtaButton>
-            <button type="button" className="btn btn-outline-light btn-lg">
+            <CtaButton type="button" className="btn btn-outline-light btn-lg">
               <FaGooglePlay />
               &nbsp;
               {props.cta}
-            </button>
+            </CtaButton>
           </div>
           <div className="col-12 col-md-6">
             <TitleImg src="/iphone6.png" alt="iphone-mockup" />
