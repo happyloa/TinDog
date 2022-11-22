@@ -17,9 +17,7 @@ const ContainerFluid = styled.div`
 `;
 
 const TitleH1 = styled.h1`
-  font-weight: 900;
   font-size: 3.5rem;
-  line-height: 1.5;
 `;
 
 const CtaButton = styled.button`
@@ -38,7 +36,7 @@ export default function Title(props) {
         <NavBar />
         <div className="row">
           <div className="col-12 col-md-6">
-            <TitleH1>{props.headingText}</TitleH1>
+            <TitleH1 className="fw-bolder lh-base">{props.headingText}</TitleH1>
             <CtaButton type="button" className="btn btn-dark btn-lg">
               <FaApple />
               &nbsp;
