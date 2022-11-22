@@ -36,23 +36,23 @@ const IconWrap = styled.span`
 
 export default function Features() {
   return (
-    <StyledSection id="features">
+    <StyledSection id="features" className="text-center text-white">
       <div className="row">
-        <FeatureWrap className="text-center text-white col-12 col-md-4 p-5">
+        <FeatureWrap className="col-12 col-md-4 p-5">
           <IconWrap>
             <FaCheckCircle size={56} className="mb-2" />
           </IconWrap>
           <h3 className="fw-bold">Easy to use.</h3>
           <p>So easy to use, even your dog could do it.</p>
         </FeatureWrap>
-        <FeatureWrap className="text-center text-white col-12 col-md-4 p-5">
+        <FeatureWrap className="col-12 col-md-4 p-5">
           <IconWrap>
             <FiTarget size={56} className="mb-2" />
           </IconWrap>
           <h3 className="fw-bold">Elite Clientele</h3>
           <p>We have all the dogs, the greatest dogs.</p>
         </FeatureWrap>
-        <FeatureWrap className="text-center text-white col-12 col-md-4 p-5">
+        <FeatureWrap className="col-12 col-md-4 p-5">
           <IconWrap>
             <FaHeart size={56} className="mb-2" />
           </IconWrap>
