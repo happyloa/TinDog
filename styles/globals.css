@@ -4,6 +4,6 @@
 
 /* 文字被選取時的顏色 */
 *::selection {
-  background-color: #ef8172;
-  color: #ffffff;
+  background-color: #ffbf00;
+  color: #282a2d;
 }
