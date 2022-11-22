@@ -6,3 +6,9 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+/* 文字被選取時的顏色 */
+*::selection {
+  background-color: #ef8172;
+  color: #ffffff;
+}
