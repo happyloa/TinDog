@@ -1,16 +1,29 @@
 // 引入 Styled Components 套件
 import styled from "styled-components";
 
+const NavTag = styled.nav`
+  padding: 0 0 4.5rem;
+`;
+
 const StyledAnchor = styled.a`
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
 `;
 
+const NavList = styled.li`
+  padding: 0 18px;
+`;
+
+const NavAnchor = styled.a`
+  font-size: 1.2rem;
+  font-weight: 300;
+`;
+
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-dark navbar-expand-lg">
-      <div className="container-fluid">
+    <NavTag className="navbar navbar-dark navbar-expand-lg">
+      <div className="container-fluid px-0">
         <StyledAnchor className="navbar-brand" href="#">
           tindog
         </StyledAnchor>
@@ -26,24 +39,24 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            <NavList className="nav-item">
+              <NavAnchor className="nav-link" href="#">
                 Contact
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+              </NavAnchor>
+            </NavList>
+            <NavList className="nav-item">
+              <NavAnchor className="nav-link" href="#">
                 Pricing
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+              </NavAnchor>
+            </NavList>
+            <NavList className="nav-item">
+              <NavAnchor className="nav-link" href="#">
                 Download
-              </a>
-            </li>
+              </NavAnchor>
+            </NavList>
           </ul>
         </div>
       </div>
-    </nav>
+    </NavTag>
   );
 }
