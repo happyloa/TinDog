@@ -18,8 +18,17 @@ const ContainerFluid = styled.div`
 
 const TitleH1 = styled.h1`
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
+`;
+
+const CtaButton = styled.button`
+  margin: 5% 3% 5% 0;
+`;
+
+const TitleImg = styled.img`
+  width: 60%;
+  transform: rotate(25deg);
 `;
 
 export default function Title(props) {
@@ -30,11 +39,11 @@ export default function Title(props) {
         <div className="row">
           <div className="col-12 col-md-6">
             <TitleH1>{props.headingText}</TitleH1>
-            <button type="button" className="btn btn-dark btn-lg">
+            <CtaButton type="button" className="btn btn-dark btn-lg">
               <FaApple />
               &nbsp;
               {props.cta}
-            </button>
+            </CtaButton>
             <button type="button" className="btn btn-outline-light btn-lg">
               <FaGooglePlay />
               &nbsp;
@@ -42,7 +51,7 @@ export default function Title(props) {
             </button>
           </div>
           <div className="col-12 col-md-6">
-            <img src="/iphone6.png" alt="iphone-mockup" />
+            <TitleImg src="/iphone6.png" alt="iphone-mockup" />
           </div>
         </div>
       </ContainerFluid>
