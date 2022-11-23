@@ -10,7 +10,7 @@ import Head from "next/head";
 export default function MyApp({ Component, pageProps }) {
   // 引入 Bootstrap 的程式碼檔案
   useEffect(() => {
-    import("bootstrap/dist/js/bootstrap");
+    import("bootstrap/dist/js/bootstrap.min.js");
   }, []);
 
   return (
