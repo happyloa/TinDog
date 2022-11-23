@@ -1,18 +1,17 @@
+import Image from "next/image";
+
 // 引入 Styled Components 套件
 import styled from "styled-components";
 
 const StyledSection = styled.section`
   background-color: #ef8172;
+`;
+
+const CarouselItem = styled.div`
   padding: 7% 15%;
-`;
-
-const TitleH2 = styled.h2`
-  font-size: 3rem;
-`;
-
-const TestimonialsImg = styled.img`
-  width: 10%;
-  margin: 20px;
+  @media (max-width: 768px) {
+    padding: 7% 5%;
+  }
 `;
 
 export default function Testimonials() {
@@ -25,31 +24,35 @@ export default function Testimonials() {
         data-bs-pause="hover">
         <div className="carousel-inner">
           {/* 第一個見證 */}
-          <div className="carousel-item active">
-            <TitleH2 className="fw-bold lh-base">
+          <CarouselItem className="carousel-item active">
+            <h2 className="fs-1 fw-bold lh-base">
               I no longer have to sniff other dogs for love. I&apos;ve found the
               hottest Corgi on TinDog. Woof.
-            </TitleH2>
-            <TestimonialsImg
+            </h2>
+            <Image
               src="/images/testimonials/dog-img.webp"
               alt="dog-profile"
-              className="rounded-circle"
+              width={100}
+              height={100}
+              className="rounded-circle m-3"
             />
             <em>Pebbles, New York</em>
-          </div>
+          </CarouselItem>
           {/* 第二個見證 */}
-          <div className="carousel-item">
-            <TitleH2 className="fw-bold lh-base">
+          <CarouselItem className="carousel-item">
+            <h2 className="fs-1 fw-bold lh-base">
               My dog used to be so lonely, but with TinDog&apos;s help,
               they&apos;ve found the love of their life. I think.
-            </TitleH2>
-            <TestimonialsImg
+            </h2>
+            <Image
               src="/images/testimonials/lady-img.webp"
               alt="lady-profile"
-              className="rounded-circle"
+              width={100}
+              height={100}
+              className="rounded-circle m-3"
             />
             <em>Beverly, Illinois</em>
-          </div>
+          </CarouselItem>
         </div>
         <button
           className="carousel-control-prev"
