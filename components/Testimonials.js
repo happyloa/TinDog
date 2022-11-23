@@ -23,14 +23,14 @@ export default function Testimonials() {
         hottest Corgi on TinDog. Woof.
       </TitleH2>
       <TestimonialsImg
-        src="/dog-img.jpg"
+        src="/dog-img.webp"
         alt="dog-profile"
         className="rounded-circle"
       />
       <em>Pebbles, New York</em>
 
       {/* <TitleH2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</TitleH2>
-    <img class="testimonial-image" src="/lady-img.jpg" alt="lady-profile"/>
+    <TestimonialsImg class="testimonial-image" src="/lady-img.webp" alt="lady-profile"/>
     <em>Beverly, Illinois</em> */}
     </StyledSection>
   );
