@@ -8,7 +8,7 @@ import { FiTarget } from "react-icons/fi";
 
 const StyledSection = styled.section`
   background-color: #8f8f8fe6;
-  background-image: url("/background_images/feature-background-image.webp");
+  background-image: url("/images/background_images/feature-background-image.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

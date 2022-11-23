@@ -23,7 +23,7 @@ export default function Testimonials() {
         hottest Corgi on TinDog. Woof.
       </TitleH2>
       <TestimonialsImg
-        src="/dog-img.webp"
+        src="/images/testimonials/dog-img.webp"
         alt="dog-profile"
         className="rounded-circle"
       />

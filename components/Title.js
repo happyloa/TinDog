@@ -53,7 +53,7 @@ export default function Title(props) {
             </CtaButton>
           </div>
           <div className="col-12 col-md-6">
-            <TitleImg src="/iphone6.webp" alt="iphone-mockup" />
+            <TitleImg src="/images/hero/iphone6.webp" alt="iphone-mockup" />
           </div>
         </div>
       </ContainerFluid>

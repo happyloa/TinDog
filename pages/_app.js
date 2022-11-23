@@ -21,7 +21,7 @@ export default function MyApp({ Component, pageProps }) {
           name="description"
           content="With 55 billion matches to date, tindog® is the world's most popular dating app, making it the place to meet new dogs."
         />
-        <link rel="icon" href="/favicon.webp" />
+        <link rel="icon" href="/images/favicon.webp" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         {/* 引入 Montserrat 字型 */}
