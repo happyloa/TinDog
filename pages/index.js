@@ -18,7 +18,14 @@ export default function Home() {
         headingText="Meet new and interesting dogs nearby."
         cta="Download"
       />
-      <Features />
+      <Features
+        headingOne="Easy to use."
+        paragraphOne="So easy to use, even your dog could do it."
+        headingTwo="Elite Clientele"
+        paragraphTwo="We have all the dogs, the greatest dogs."
+        headingThree="Guaranteed to work."
+        paragraphThree="Find the love of your dog&apos;s life or your money back."
+      />
       <Testimonials />
       <Press />
       <Pricing />

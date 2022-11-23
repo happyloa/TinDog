@@ -34,7 +34,7 @@ const IconWrap = styled.span`
   }
 `;
 
-export default function Features() {
+export default function Features(props) {
   return (
     <StyledSection id="features" className="text-center text-white">
       <div className="row">
@@ -42,22 +42,22 @@ export default function Features() {
           <IconWrap>
             <FaCheckCircle size={56} className="mb-2" />
           </IconWrap>
-          <h3 className="fw-bold">Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
+          <h3 className="fw-bold">{props.headingOne}</h3>
+          <p>{props.paragraphOne}</p>
         </FeatureWrap>
         <FeatureWrap className="col-12 col-md-4 p-5">
           <IconWrap>
             <FiTarget size={56} className="mb-2" />
           </IconWrap>
-          <h3 className="fw-bold">Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
+          <h3 className="fw-bold">{props.headingTwo}</h3>
+          <p>{props.paragraphTwo}</p>
         </FeatureWrap>
         <FeatureWrap className="col-12 col-md-4 p-5">
           <IconWrap>
             <FaHeart size={56} className="mb-2" />
           </IconWrap>
-          <h3 className="fw-bold">Guaranteed to work.</h3>
-          <p>Find the love of your dog&apos;s life or your money back.</p>
+          <h3 className="fw-bold">{props.headingThree}</h3>
+          <p>{props.paragraphThree}</p>
         </FeatureWrap>
       </div>
     </StyledSection>
