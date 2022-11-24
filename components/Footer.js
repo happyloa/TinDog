@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <StyledFooter id="footer">
       <div className="container text-center">
-        <p>© Copyright Wolfpack</p>
+        <p className="mb-0">© Copyright Wolfpack</p>
       </div>
     </StyledFooter>
   );
