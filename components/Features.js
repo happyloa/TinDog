@@ -15,6 +15,12 @@ const StyledSection = styled.section`
   background-attachment: fixed;
   background-blend-mode: multiply;
   padding: 7% 15%;
+  margin: -350px 0 0 0;
+  position: relative;
+  z-index: 1;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 `;
 
 const FeatureWrap = styled.div`

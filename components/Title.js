@@ -13,7 +13,7 @@ const StyledSection = styled.section`
 `;
 
 const ContainerFluid = styled.div`
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 `;
 
 const TitleH1 = styled.h1`
@@ -38,6 +38,13 @@ const TitleImg = styled.img`
   &:hover {
     transform: rotate(15deg);
   }
+  @media (max-width: 768px) {
+    width: 100%;
+    transform: rotate(0deg);
+    &:hover {
+      transform: rotate(0deg);
+    }
+  }
 `;
 
 export default function Title(props) {
@@ -60,7 +67,11 @@ export default function Title(props) {
             </CtaButton>
           </div>
           <div className="col-12 col-md-6">
-            <TitleImg src="/images/hero/iphone6.webp" alt="iphone-mockup" />
+            <TitleImg
+              src="/images/hero/iphone6.webp"
+              alt="iphone-mockup"
+              className="d-block mx-auto"
+            />
           </div>
         </div>
       </ContainerFluid>
