@@ -15,7 +15,7 @@ const StyledSection = styled.section`
   background-attachment: fixed;
   background-blend-mode: multiply;
   padding: 100px 0;
-  margin: -350px 0 0 0;
+  margin: -300px 0 0 0;
   position: relative;
   z-index: 1;
   @media (max-width: 1200px) {
