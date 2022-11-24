@@ -2,7 +2,10 @@
 import styled from "styled-components";
 
 const StyledSection = styled.section`
-  padding: 7% 15%;
+  padding: 100px 0;
+  @media (max-width: 768px) {
+    padding: 90px 0;
+  }
 `;
 
 export default function Pricing() {
