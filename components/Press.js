@@ -21,28 +21,28 @@ export default function Press() {
             alt="tc-logo"
             width={300}
             height={50}
-            className="col-12 col-md-3"
+            className="col-12 col-md-6 col-lg-3 mb-4"
           />
           <Image
             src="/images/press_logos/tnw.webp"
             alt="tnw-logo"
             width={300}
             height={125}
-            className="col-12 col-md-3"
+            className="col-12 col-md-6 col-lg-3 mb-4"
           />
           <Image
             src="/images/press_logos/bizinsider.webp"
             alt="biz-insider-logo"
             width={300}
             height={50}
-            className="col-12 col-md-3"
+            className="col-12 col-md-6 col-lg-3 mb-4"
           />
           <Image
             src="/images/press_logos/mashable.webp"
             alt="mashable-logo"
             width={300}
             height={50}
-            className="col-12 col-md-3"
+            className="col-12 col-md-6 col-lg-3 mb-4"
           />
         </div>
       </div>
