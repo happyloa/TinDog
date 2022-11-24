@@ -18,10 +18,8 @@ const StyledSection = styled.section`
 `;
 
 const FeatureWrap = styled.div`
-  border-radius: 5px;
   transition: all 0.3s ease-in-out;
   &:hover {
-    border-radius: 15px;
     transform: translateY(-10px);
   }
 `;
