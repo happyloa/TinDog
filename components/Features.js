@@ -1,10 +1,10 @@
-// 引入 Styled Components 套件
-import styled from "styled-components";
-
 // 引入 Font Awesome 的 Heart 與 Check Circle icon
 import { FaHeart, FaCheckCircle } from "react-icons/fa";
 // 引入 Feather 的 Target icon
 import { FiTarget } from "react-icons/fi";
+
+// 引入 Styled Components 套件
+import styled from "styled-components";
 
 const StyledSection = styled.section`
   background-color: #8f8f8fe6;
