@@ -17,7 +17,7 @@ const NavList = styled.li`
 
 const NavAnchor = styled.a`
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
 `;
 
 export default function NavBar() {
