@@ -18,8 +18,14 @@ const ContainerFluid = styled.div`
 
 const TitleH1 = styled.h1`
   font-size: 3.5rem;
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 992px) {
     font-size: 2.5rem;
+  }
+  @media (max-width: 768px) {
+    text-align: center;
   }
 `;
 
@@ -28,6 +34,9 @@ const CtaButton = styled.button`
   transition: transform 0.3s ease;
   &:hover {
     transform: translateY(-10px);
+  }
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
 
@@ -66,7 +75,7 @@ export default function Title(props) {
               {props.cta}
             </CtaButton>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 my-3">
             <TitleImg
               src="/images/hero/iphone6.webp"
               alt="iphone-mockup"

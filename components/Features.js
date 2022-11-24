@@ -18,6 +18,12 @@ const StyledSection = styled.section`
   margin: -350px 0 0 0;
   position: relative;
   z-index: 1;
+  @media (max-width: 1200px) {
+    margin: -100px 0 0 0;
+  }
+  @media (max-width: 992px) {
+    margin: -50px 0 0 0;
+  }
   @media (max-width: 768px) {
     margin: 0;
   }
