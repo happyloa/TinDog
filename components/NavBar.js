@@ -12,7 +12,7 @@ const StyledAnchor = styled.a`
 
 export default function NavBar() {
   return (
-    <NavTag className="navbar navbar-dark navbar-expand-lg py-1 sticky-top">
+    <NavTag className="navbar navbar-dark navbar-expand-sm py-1 sticky-top">
       <div className="container">
         <StyledAnchor className="navbar-brand fs-1 fw-bold" href="#">
           tindog
