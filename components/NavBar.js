@@ -2,7 +2,8 @@
 import styled from "styled-components";
 
 const NavTag = styled.nav`
-  background-color: #ff4c68;
+  background-color: #ff4c6899;
+  backdrop-filter: blur(10px);
 `;
 
 const StyledAnchor = styled.a`
@@ -11,7 +12,7 @@ const StyledAnchor = styled.a`
 
 export default function NavBar() {
   return (
-    <NavTag className="navbar navbar-dark navbar-expand-lg py-2 sticky-top">
+    <NavTag className="navbar navbar-dark navbar-expand-lg py-1 sticky-top">
       <div className="container">
         <StyledAnchor className="navbar-brand fs-1 fw-bold" href="#">
           tindog
@@ -27,19 +28,19 @@ export default function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto fs-5">
             <li className="nav-item px-2">
-              <a className="nav-link fs-5" href="#features">
+              <a className="nav-link" href="#features">
                 Features
               </a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link fs-5" href="#pricing">
+              <a className="nav-link" href="#pricing">
                 Pricing
               </a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link fs-5" href="#cta">
+              <a className="nav-link" href="#cta">
                 Download
               </a>
             </li>
