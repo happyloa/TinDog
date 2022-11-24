@@ -14,7 +14,10 @@ export default function Footer() {
     <StyledFooter id="footer">
       <div className="container text-center">
         <p>© Copyright Wolfpack</p>
-        <a href="https://github.com/happyloa/TinDog" target="_blank">
+        <a
+          href="https://github.com/happyloa/TinDog"
+          target="_blank"
+          rel="noreferrer">
           <Image
             src={"/images/github-logo.webp"}
             alt={"GitHub icon"}
