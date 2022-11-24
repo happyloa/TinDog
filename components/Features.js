@@ -38,21 +38,21 @@ export default function Features(props) {
   return (
     <StyledSection id="features" className="text-center text-white">
       <div className="row">
-        <FeatureWrap className="col-12 col-md-4 p-5">
+        <FeatureWrap className="col-12 col-md-4 p-3">
           <IconWrap>
             <FaCheckCircle size={56} className="mb-2" />
           </IconWrap>
           <h3 className="fw-bold">{props.headingOne}</h3>
           <p>{props.paragraphOne}</p>
         </FeatureWrap>
-        <FeatureWrap className="col-12 col-md-4 p-5">
+        <FeatureWrap className="col-12 col-md-4 p-3">
           <IconWrap>
             <FiTarget size={56} className="mb-2" />
           </IconWrap>
           <h3 className="fw-bold">{props.headingTwo}</h3>
           <p>{props.paragraphTwo}</p>
         </FeatureWrap>
-        <FeatureWrap className="col-12 col-md-4 p-5">
+        <FeatureWrap className="col-12 col-md-4 p-3">
           <IconWrap>
             <FaHeart size={56} className="mb-2" />
           </IconWrap>
