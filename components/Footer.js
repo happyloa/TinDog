@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 // 引入 Styled Components 套件
 import styled from "styled-components";
 
@@ -11,7 +13,15 @@ export default function Footer() {
   return (
     <StyledFooter id="footer">
       <div className="container text-center">
-        <p className="mb-0">© Copyright Wolfpack</p>
+        <p>© Copyright Wolfpack</p>
+        <a href="https://github.com/happyloa/TinDog" target="_blank">
+          <Image
+            src={"/images/github-logo.webp"}
+            alt={"GitHub icon"}
+            width={50}
+            height={50}
+          />
+        </a>
       </div>
     </StyledFooter>
   );
