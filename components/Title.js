@@ -1,11 +1,11 @@
-// 引入 Styled Components 套件
-import styled from "styled-components";
-
 // 引入 Font Awesome 的 Apple 與 Google Play icon
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 // 引入 NavBar 元件
 import NavBar from "../components/NavBar";
+
+// 引入 Styled Components 套件
+import styled from "styled-components";
 
 const StyledSection = styled.section`
   background-color: #ff4c68;
@@ -18,6 +18,9 @@ const ContainerFluid = styled.div`
 
 const TitleH1 = styled.h1`
   font-size: 3.5rem;
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 `;
 
 const CtaButton = styled.button`
@@ -31,6 +34,10 @@ const CtaButton = styled.button`
 const TitleImg = styled.img`
   width: 60%;
   transform: rotate(25deg);
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: rotate(15deg);
+  }
 `;
 
 export default function Title(props) {
