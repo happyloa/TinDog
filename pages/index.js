@@ -3,6 +3,7 @@ import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Press from "../components/Press";
 import Pricing from "../components/Pricing";
+import Faq from "../components/Faq";
 import CalltoAction from "../components/CalltoAction";
 import Footer from "../components/Footer";
 
@@ -24,11 +25,12 @@ export default function Home() {
         headingTwo="Elite Clientele"
         paragraphTwo="We have all the dogs, the greatest dogs."
         headingThree="Guaranteed to work."
-        paragraphThree="Find the love of your dog&apos;s life or your money back."
+        paragraphThree="Find the love of your dog's life or your money back."
       />
       <Testimonials />
       <Press />
       <Pricing />
+      <Faq />
       <CalltoAction />
       <Footer />
     </div>
