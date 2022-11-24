@@ -1,19 +1,16 @@
 // 引入 Font Awesome 的 Apple 與 Google Play icon
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
-// 引入 NavBar 元件
-import NavBar from "../components/NavBar";
-
 // 引入 Styled Components 套件
 import styled from "styled-components";
 
 const StyledSection = styled.section`
   background-color: #ff4c68;
   color: #ffffff;
-`;
-
-const ContainerFluid = styled.div`
-  padding: 3% 15% 7%;
+  padding: 100px 0;
+  @media (max-width: 768px) {
+    padding: 90px 0;
+  }
 `;
 
 const TitleH1 = styled.h1`
@@ -59,8 +56,7 @@ const TitleImg = styled.img`
 export default function Title(props) {
   return (
     <StyledSection id="title">
-      <ContainerFluid className="container-fluid">
-        <NavBar />
+      <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
             <TitleH1 className="fw-bolder lh-base">{props.headingText}</TitleH1>
@@ -83,7 +79,7 @@ export default function Title(props) {
             />
           </div>
         </div>
-      </ContainerFluid>
+      </div>
     </StyledSection>
   );
 }

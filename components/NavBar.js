@@ -2,29 +2,18 @@
 import styled from "styled-components";
 
 const NavTag = styled.nav`
-  padding: 0 0 4.5rem;
+  background-color: #ff4c68;
 `;
 
 const StyledAnchor = styled.a`
   font-family: "Ubuntu", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-`;
-
-const NavList = styled.li`
-  padding: 0 18px;
-`;
-
-const NavAnchor = styled.a`
-  font-size: 1.2rem;
-  font-weight: 400;
 `;
 
 export default function NavBar() {
   return (
-    <NavTag className="navbar navbar-dark navbar-expand-lg">
-      <div className="container-fluid px-0">
-        <StyledAnchor className="navbar-brand" href="#">
+    <NavTag className="navbar navbar-dark navbar-expand-lg py-2 sticky-top">
+      <div className="container">
+        <StyledAnchor className="navbar-brand fs-1 fw-bold" href="#">
           tindog
         </StyledAnchor>
         <button
@@ -39,21 +28,21 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <NavList className="nav-item">
-              <NavAnchor className="nav-link" href="#">
-                Contact
-              </NavAnchor>
-            </NavList>
-            <NavList className="nav-item">
-              <NavAnchor className="nav-link" href="#">
+            <li className="nav-item px-2">
+              <a className="nav-link fs-5" href="#features">
+                Features
+              </a>
+            </li>
+            <li className="nav-item px-2">
+              <a className="nav-link fs-5" href="#pricing">
                 Pricing
-              </NavAnchor>
-            </NavList>
-            <NavList className="nav-item">
-              <NavAnchor className="nav-link" href="#">
+              </a>
+            </li>
+            <li className="nav-item px-2">
+              <a className="nav-link fs-5" href="#cta">
                 Download
-              </NavAnchor>
-            </NavList>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
