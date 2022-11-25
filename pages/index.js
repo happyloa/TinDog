@@ -18,18 +18,8 @@ export default function Home() {
         <title>tindog - Meet new and interesting dogs nearby</title>
       </Head>
       <NavBar />
-      <Title
-        headingText="Meet new and interesting dogs nearby."
-        cta="Download"
-      />
-      <Features
-        headingOne="Easy to use."
-        paragraphOne="So easy to use, even your dog could do it."
-        headingTwo="Elite Clientele"
-        paragraphTwo="We have all the dogs, the greatest dogs."
-        headingThree="Guaranteed to work."
-        paragraphThree="Find the love of your dog's life or your money back."
-      />
+      <Title />
+      <Features />
       <Testimonials />
       <Press />
       <Pricing />

@@ -53,22 +53,22 @@ const TitleImg = styled.img`
   }
 `;
 
-export default function Title(props) {
+export default function Title() {
   return (
     <StyledSection id="title">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6">
-            <TitleH1 className="fw-bolder lh-base">{props.headingText}</TitleH1>
+            <TitleH1 className="fw-bolder lh-base">
+              Meet new and interesting dogs nearby.
+            </TitleH1>
             <CtaButton type="button" className="btn btn-dark btn-lg">
               <FaApple />
-              &nbsp;
-              {props.cta}
+              &nbsp; Download
             </CtaButton>
             <CtaButton type="button" className="btn btn-outline-light btn-lg">
               <FaGooglePlay />
-              &nbsp;
-              {props.cta}
+              &nbsp; Download
             </CtaButton>
           </div>
           <div className="col-12 col-md-6 my-3">
