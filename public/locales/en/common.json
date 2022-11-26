@@ -1,4 +1,9 @@
 {
+  "NavBar": {
+    "featuresLink": "Features",
+    "pricingLink": "Pricing",
+    "downloadLink": "Download"
+  },
   "Title": {
     "titleHeading": "Meet new and interesting dogs nearby.",
     "titleCta": "Download"

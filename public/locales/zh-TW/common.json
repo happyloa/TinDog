@@ -1,4 +1,9 @@
 {
+  "NavBar": {
+    "featuresLink": "特色功能",
+    "pricingLink": "專屬方案",
+    "downloadLink": "馬上下載"
+  },
   "Title": {
     "titleHeading": "認識你附近有趣的狗狗",
     "titleCta": "下載 APP"
