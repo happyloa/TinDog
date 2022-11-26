@@ -1,3 +1,6 @@
+// 引入切換語系的元件
+import LanguageSwitch from "/components/LanguageSwitch";
+
 // 引入 Styled Components 套件
 import styled from "styled-components";
 
@@ -45,6 +48,7 @@ export default function NavBar() {
               </a>
             </li>
           </ul>
+          <LanguageSwitch />
         </div>
       </div>
     </NavTag>
