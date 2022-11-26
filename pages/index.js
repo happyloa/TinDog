@@ -30,10 +30,10 @@ export default function Home() {
   const { t } = useTranslation("common");
   return (
     <div>
-      {/* 用 props 的方式來將翻譯字串傳遞給各個元件 */}
       <Head>
         <title>{t("bookmarkTitle")}</title>
       </Head>
+      {/* 用 props 的方式來將翻譯字串傳遞給各個元件 */}
       <NavBar
         featuresLink={t("NavBar.featuresLink")}
         pricingLink={t("NavBar.pricingLink")}
