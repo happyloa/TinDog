@@ -9,14 +9,12 @@ const StyledSection = styled.section`
   }
 `;
 
-export default function Faq() {
+export default function Faq(props) {
   return (
     <StyledSection id="faq">
       <div className="container text-center text-white">
-        <h2 className="fs-1 fw-bold">Frequently Asked Questions</h2>
-        <p className="fs-4 mb-5">
-          We will answer your questions whole-hearted.
-        </p>
+        <h2 className="fs-1 fw-bold">{props.FaqHeading}</h2>
+        <p className="fs-4 mb-5">{props.FaqSubHeading}</p>
         <div class="accordion" id="tindogFaqAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">

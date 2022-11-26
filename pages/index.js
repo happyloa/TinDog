@@ -81,7 +81,10 @@ export default function Home() {
         cardThreeFeatureFour={t("Pricing.cardThreeFeatureFour")}
         cardCta={t("Pricing.cardCta")}
       />
-      <Faq />
+      <Faq
+        FaqHeading={t("Faq.FaqHeading")}
+        FaqSubHeading={t("Faq.FaqSubHeading")}
+      />
       <CalltoAction />
       <Footer />
     </div>
