@@ -47,8 +47,8 @@ export default function NavBar() {
                 Download
               </a>
             </li>
+            <LanguageSwitch />
           </ul>
-          <LanguageSwitch />
         </div>
       </div>
     </NavTag>
