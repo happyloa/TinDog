@@ -7,5 +7,13 @@
   "Title": {
     "titleHeading": "Meet new and interesting dogs nearby.",
     "titleCta": "Download"
+  },
+  "Features": {
+    "featureTitleOne": "Easy to use.",
+    "featureParagraphOne": "So easy to use, even your dog could do it.",
+    "featureTitleTwo": "Elite Clientele",
+    "featureParagraphTwo": "We have all the dogs, the greatest dogs.",
+    "featureTitleThree": "Guaranteed to work.",
+    "featureParagraphThree": "Find the love of your dog&apos;s life or your money back."
   }
 }

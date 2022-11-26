@@ -7,5 +7,13 @@
   "Title": {
     "titleHeading": "透過 tindog 認識在你附近有趣的新狗狗",
     "titleCta": "下載 APP"
+  },
+  "Features": {
+    "featureTitleOne": "容易使用",
+    "featureParagraphOne": "連你的狗狗都懂得如何使用。",
+    "featureTitleTwo": "精選狗群",
+    "featureParagraphTwo": "我們的平台上有最棒的狗狗。",
+    "featureTitleThree": "保證有用",
+    "featureParagraphThree": "為你的愛狗找到生命中的唯一。"
   }
 }
