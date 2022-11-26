@@ -45,5 +45,9 @@
     "cardThreeFeatureThree": "Unlimited Messages",
     "cardThreeFeatureFour": "Unlimited App Usage",
     "cardCta": "Sign Up"
+  },
+  "Faq": {
+    "FaqHeading": "Frequently Asked Questions",
+    "FaqSubHeading": "We will answer your questions whole-hearted."
   }
 }

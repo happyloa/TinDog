@@ -45,5 +45,9 @@
     "cardThreeFeatureThree": "不限訊息數量",
     "cardThreeFeatureFour": "不限制地使用 APP",
     "cardCta": "馬上加入"
+  },
+  "Faq": {
+    "FaqHeading": "常見問答集",
+    "FaqSubHeading": "這裡有我們精心為您準備的常見問題。"
   }
 }
