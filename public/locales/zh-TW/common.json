@@ -21,5 +21,28 @@
     "testimonialsNameOne": "Pebbles, 紐約",
     "testimonialsContentTwo": "我的狗狗曾經很寂寞，但當我開始接觸了 tindog，並用它來幫助我的狗狗尋找生命中的唯一的時候，我想，我的狗狗再也不會感到寂寞了。",
     "testimonialsNameTwo": "Beverly, 伊利諾州"
+  },
+  "Pricing": {
+    "sectionHeading": "為每隻狗狗找到最適合的方案",
+    "sectionSubHeading": "誰都負擔得起的方案，專屬於你，與你的狗狗",
+    "cardOneHeading": "吉娃娃",
+    "cardOneFee": "免費",
+    "cardOneFeatureOne": "5 次配對 / 每日",
+    "cardOneFeatureTwo": "10 條訊息 / 每日",
+    "cardOneFeatureThree": "不限制地使用 APP",
+    "cardTwoHeading": "拉不拉多",
+    "cardTwoFee": "$49",
+    "cardTwoPeriod": "/ 月",
+    "cardTwoFeatureOne": "不限配對次數",
+    "cardTwoFeatureTwo": "不限訊息數量",
+    "cardTwoFeatureThree": "不限制地使用 APP",
+    "cardThreeHeading": "英國獒犬",
+    "cardThreeFee": "$99",
+    "cardThreePeriod": "/ 月",
+    "cardThreeFeatureOne": "優先配對",
+    "cardThreeFeatureTwo": "不限配對次數",
+    "cardThreeFeatureThree": "不限訊息數量",
+    "cardThreeFeatureFour": "不限制地使用 APP",
+    "cardCta": "馬上加入"
   }
 }

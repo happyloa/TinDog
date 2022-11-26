@@ -21,5 +21,28 @@
     "testimonialsNameOne": "Pebbles, New York",
     "testimonialsContentTwo": "My dog used to be so lonely, but with tindog's help, they've found the love of their life. I think.",
     "testimonialsNameTwo": "Beverly, Illinois"
+  },
+  "Pricing": {
+    "sectionHeading": "A Plan for Every Dog's Needs",
+    "sectionSubHeading": "Simple and affordable price plans for you and your dog.",
+    "cardOneHeading": "Chihuahua",
+    "cardOneFee": "Free",
+    "cardOneFeatureOne": "5 Matches Per Day",
+    "cardOneFeatureTwo": "10 Messages Per Day",
+    "cardOneFeatureThree": "Unlimited App Usage",
+    "cardTwoHeading": "Labrador",
+    "cardTwoFee": "$49",
+    "cardTwoPeriod": "/ mo",
+    "cardTwoFeatureOne": "Unlimited Matches",
+    "cardTwoFeatureTwo": "Unlimited Messages",
+    "cardTwoFeatureThree": "Unlimited App Usage",
+    "cardThreeHeading": "Mastiff",
+    "cardThreeFee": "$99",
+    "cardThreePeriod": "/ mo",
+    "cardThreeFeatureOne": "Pirority Listing",
+    "cardThreeFeatureTwo": "Unlimited Matches",
+    "cardThreeFeatureThree": "Unlimited Messages",
+    "cardThreeFeatureFour": "Unlimited App Usage",
+    "cardCta": "Sign Up"
   }
 }
