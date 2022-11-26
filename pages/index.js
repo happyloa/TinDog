@@ -32,7 +32,7 @@ export default function Home() {
     <div>
       {/* 用 props 的方式來將翻譯字串傳遞給各個元件 */}
       <Head>
-        <title>tindog - Meet new and interesting dogs nearby</title>
+        <title>{t("bookmarkTitle")}</title>
       </Head>
       <NavBar
         featuresLink={t("NavBar.featuresLink")}
