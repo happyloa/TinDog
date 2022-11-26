@@ -51,7 +51,12 @@ export default function Home() {
         featureTitleThree={t("Features.featureTitleThree")}
         featureParagraphThree={t("Features.featureParagraphThree")}
       />
-      <Testimonials />
+      <Testimonials
+        testimonialsContentOne={t("Testimonials.testimonialsContentOne")}
+        testimonialsNameOne={t("Testimonials.testimonialsNameOne")}
+        testimonialsContentTwo={t("Testimonials.testimonialsContentTwo")}
+        testimonialsNameTwo={t("Testimonials.testimonialsNameTwo")}
+      />
       <Press />
       <Pricing />
       <Faq />

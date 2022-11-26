@@ -14,7 +14,7 @@ const CarouselItem = styled.div`
   }
 `;
 
-export default function Testimonials() {
+export default function Testimonials(props) {
   return (
     <StyledSection id="testimonials" className="text-center text-white">
       <div
@@ -26,8 +26,7 @@ export default function Testimonials() {
           {/* 第一個見證 */}
           <CarouselItem className="carousel-item active">
             <h2 className="fs-1 fw-bold lh-base">
-              I no longer have to sniff other dogs for love. I&apos;ve found the
-              hottest Corgi on TinDog. Woof.
+              {props.testimonialsContentOne}
             </h2>
             <Image
               src="/images/testimonials/dog-img.webp"
@@ -36,13 +35,12 @@ export default function Testimonials() {
               height={100}
               className="rounded-circle m-3"
             />
-            <em>Pebbles, New York</em>
+            <em>{props.testimonialsNameOne}</em>
           </CarouselItem>
           {/* 第二個見證 */}
           <CarouselItem className="carousel-item">
             <h2 className="fs-1 fw-bold lh-base">
-              My dog used to be so lonely, but with TinDog&apos;s help,
-              they&apos;ve found the love of their life. I think.
+              {props.testimonialsContentTwo}
             </h2>
             <Image
               src="/images/testimonials/lady-img.webp"
@@ -51,7 +49,7 @@ export default function Testimonials() {
               height={100}
               className="rounded-circle m-3"
             />
-            <em>Beverly, Illinois</em>
+            <em>{props.testimonialsNameTwo}</em>
           </CarouselItem>
         </div>
         <button
