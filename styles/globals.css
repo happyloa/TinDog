@@ -1,5 +1,7 @@
 * {
   font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* 文字被選取時的顏色 */
