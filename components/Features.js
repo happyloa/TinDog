@@ -54,22 +54,22 @@ export default function Features(props) {
             <IconWrap>
               <FaCheckCircle size={56} className="mb-2" />
             </IconWrap>
-            <h3 className="fw-bold">Easy to use.</h3>
-            <p>So easy to use, even your dog could do it.</p>
+            <h3 className="fw-bold">{props.featureTitleOne}</h3>
+            <p>{props.featureParagraphOne}</p>
           </FeatureWrap>
           <FeatureWrap className="col-12 col-md-4 p-3">
             <IconWrap>
               <FiTarget size={56} className="mb-2" />
             </IconWrap>
-            <h3 className="fw-bold">Elite Clientele</h3>
-            <p>We have all the dogs, the greatest dogs.</p>
+            <h3 className="fw-bold">{props.featureTitleTwo}</h3>
+            <p>{props.featureParagraphTwo}</p>
           </FeatureWrap>
           <FeatureWrap className="col-12 col-md-4 p-3">
             <IconWrap>
               <FaHeart size={56} className="mb-2" />
             </IconWrap>
-            <h3 className="fw-bold">Guaranteed to work.</h3>
-            <p>Find the love of your dog&apos;s life or your money back.</p>
+            <h3 className="fw-bold">{props.featureTitleThree}</h3>
+            <p>{props.featureParagraphThree}</p>
           </FeatureWrap>
         </div>
       </div>

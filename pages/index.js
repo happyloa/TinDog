@@ -43,7 +43,14 @@ export default function Home() {
         titleHeading={t("Title.titleHeading")}
         titleCta={t("Title.titleCta")}
       />
-      <Features />
+      <Features
+        featureTitleOne={t("Features.featureTitleOne")}
+        featureParagraphOne={t("Features.featureParagraphOne")}
+        featureTitleTwo={t("Features.featureTitleTwo")}
+        featureParagraphTwo={t("Features.featureParagraphTwo")}
+        featureTitleThree={t("Features.featureTitleThree")}
+        featureParagraphThree={t("Features.featureParagraphThree")}
+      />
       <Testimonials />
       <Press />
       <Pricing />
