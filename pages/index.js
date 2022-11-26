@@ -58,7 +58,29 @@ export default function Home() {
         testimonialsNameTwo={t("Testimonials.testimonialsNameTwo")}
       />
       <Press />
-      <Pricing />
+      <Pricing
+        sectionHeading={t("Pricing.sectionHeading")}
+        sectionSubHeading={t("Pricing.sectionSubHeading")}
+        cardOneHeading={t("Pricing.cardOneHeading")}
+        cardOneFee={t("Pricing.cardOneFee")}
+        cardOneFeatureOne={t("Pricing.cardOneFeatureOne")}
+        cardOneFeatureTwo={t("Pricing.cardOneFeatureTwo")}
+        cardOneFeatureThree={t("Pricing.cardOneFeatureThree")}
+        cardTwoHeading={t("Pricing.cardTwoHeading")}
+        cardTwoFee={t("Pricing.cardTwoFee")}
+        cardTwoPeriod={t("Pricing.cardTwoPeriod")}
+        cardTwoFeatureOne={t("Pricing.cardOneFeatureOne")}
+        cardTwoFeatureTwo={t("Pricing.cardTwoFeatureTwo")}
+        cardTwoFeatureThree={t("Pricing.cardTwoFeatureThree")}
+        cardThreeHeading={t("Pricing.cardThreeHeading")}
+        cardThreeFee={t("Pricing.cardThreeFee")}
+        cardThreePeriod={t("Pricing.cardThreePeriod")}
+        cardThreeFeatureOne={t("Pricing.cardThreeFeatureOne")}
+        cardThreeFeatureTwo={t("Pricing.cardThreeFeatureTwo")}
+        cardThreeFeatureThree={t("Pricing.cardThreeFeatureThree")}
+        cardThreeFeatureFour={t("Pricing.cardThreeFeatureFour")}
+        cardCta={t("Pricing.cardCta")}
+      />
       <Faq />
       <CalltoAction />
       <Footer />
