@@ -13,7 +13,7 @@ const StyledAnchor = styled.a`
   font-family: "Ubuntu", sans-serif;
 `;
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
     <NavTag className="navbar navbar-dark navbar-expand-sm py-1 sticky-top">
       <div className="container">
@@ -34,17 +34,17 @@ export default function NavBar() {
           <ul className="navbar-nav ms-auto fs-5">
             <li className="nav-item px-2">
               <a className="nav-link" href="#features">
-                Features
+                {props.featuresLink}
               </a>
             </li>
             <li className="nav-item px-2">
               <a className="nav-link" href="#pricing">
-                Pricing
+                {props.pricingLink}
               </a>
             </li>
             <li className="nav-item px-2">
               <a className="nav-link" href="#cta">
-                Download
+                {props.downloadLink}
               </a>
             </li>
             <LanguageSwitch />
