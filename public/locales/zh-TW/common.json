@@ -49,5 +49,9 @@
   "Faq": {
     "FaqHeading": "常見問答集",
     "FaqSubHeading": "這裡有我們精心為您準備的常見問題。"
+  },
+  "Cta": {
+    "ctaHeading": "今天就為你的狗狗找到真命天狗",
+    "ctaDownload": "下載 APP"
   }
 }

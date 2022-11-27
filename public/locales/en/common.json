@@ -49,5 +49,9 @@
   "Faq": {
     "FaqHeading": "Frequently Asked Questions",
     "FaqSubHeading": "We will answer your questions whole-hearted."
+  },
+  "Cta": {
+    "ctaHeading": "Find the True Love of Your Dog's Life Today.",
+    "ctaDownload": "Download"
   }
 }
