@@ -85,7 +85,10 @@ export default function Home() {
         FaqHeading={t("Faq.FaqHeading")}
         FaqSubHeading={t("Faq.FaqSubHeading")}
       />
-      <CalltoAction />
+      <CalltoAction
+        ctaHeading={t("Cta.ctaHeading")}
+        ctaDownload={t("Cta.ctaDownload")}
+      />
       <Footer />
     </div>
   );

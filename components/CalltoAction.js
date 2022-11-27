@@ -20,18 +20,18 @@ const CtaButton = styled.button`
   }
 `;
 
-export default function CalltoAction() {
+export default function CalltoAction(props) {
   return (
     <StyledSection id="cta">
       <div className="container text-center">
-        <h3>Find the True Love of Your Dog&apos;s Life Today.</h3>
+        <h3>{props.ctaHeading}</h3>
         <CtaButton type="button" className="btn btn-dark btn-lg">
           <FaApple />
-          &nbsp;Download
+          &nbsp;{props.ctaDownload}
         </CtaButton>
         <CtaButton type="button" className="btn btn-outline-dark btn-lg">
           <FaGooglePlay />
-          &nbsp;Download
+          &nbsp;{props.ctaDownload}
         </CtaButton>
       </div>
     </StyledSection>
