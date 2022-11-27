@@ -54,5 +54,9 @@
   "Cta": {
     "ctaHeading": "Find the True Love of Your Dog's Life Today.",
     "ctaDownload": "Download"
+  },
+  "Footer": {
+    "footerText": "© Copyright Wolfpack",
+    "GitHubRepo": "GitHub Repository"
   }
 }

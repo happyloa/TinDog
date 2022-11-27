@@ -54,5 +54,9 @@
   "Cta": {
     "ctaHeading": "今天就為你的狗狗找到真命天狗",
     "ctaDownload": "下載 APP"
+  },
+  "Footer": {
+    "footerText": "© Copyright 謝宗佑",
+    "GitHubRepo": "GitHub 儲存庫"
   }
 }
