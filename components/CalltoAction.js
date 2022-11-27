@@ -13,7 +13,6 @@ const StyledSection = styled.section`
 `;
 
 const CtaButton = styled.button`
-  margin: 5% 3% 5% 0;
   transition: transform 0.3s ease;
   &:hover {
     transform: translateY(-10px);
@@ -24,12 +23,12 @@ export default function CalltoAction(props) {
   return (
     <StyledSection id="cta">
       <div className="container text-center">
-        <h3>{props.ctaHeading}</h3>
-        <CtaButton type="button" className="btn btn-dark btn-lg">
+        <h3 className="mb-5">{props.ctaHeading}</h3>
+        <CtaButton type="button" className="btn btn-dark btn-lg mx-3">
           <FaApple />
           &nbsp;{props.ctaDownload}
         </CtaButton>
-        <CtaButton type="button" className="btn btn-outline-dark btn-lg">
+        <CtaButton type="button" className="btn btn-outline-dark btn-lg mx-3">
           <FaGooglePlay />
           &nbsp;{props.ctaDownload}
         </CtaButton>
