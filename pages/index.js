@@ -89,7 +89,10 @@ export default function Home() {
         ctaHeading={t("Cta.ctaHeading")}
         ctaDownload={t("Cta.ctaDownload")}
       />
-      <Footer />
+      <Footer
+        footerText={t("Footer.footerText")}
+        GitHubRepo={t("Footer.GitHubRepo")}
+      />
     </div>
   );
 }

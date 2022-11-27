@@ -9,11 +9,11 @@ const StyledFooter = styled.footer`
   padding: 25px 0;
 `;
 
-export default function Footer() {
+export default function Footer(props) {
   return (
     <StyledFooter id="footer">
       <div className="container text-center">
-        <p>© Copyright Wolfpack</p>
+        <p>{props.footerText}</p>
         <a
           href="https://github.com/happyloa/TinDog"
           target="_blank"
@@ -21,6 +21,7 @@ export default function Footer() {
           <Image
             src={"/images/github-logo.webp"}
             alt={"GitHub icon"}
+            title={props.GitHubRepo}
             width={50}
             height={50}
           />
