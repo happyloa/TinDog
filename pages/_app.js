@@ -7,21 +7,20 @@ import "../styles/globals.css";
 import { useEffect } from "react";
 import Head from "next/head";
 import { appWithTranslation } from "next-i18next";
+import { useTranslation } from "next-i18next";
 
 function MyApp({ Component, pageProps }) {
   // 引入 Bootstrap 的程式碼檔案
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.min.js");
   }, []);
+  const { t } = useTranslation("common");
 
   return (
     <>
       <Head>
         <meta charSet="utf-8" />
-        <meta
-          name="description"
-          content="With 55 billion matches to date, tindog® is the world's most popular dating app, making it the place to meet new dogs."
-        />
+        <meta name="description" content={t("metaDescription")} />
         <link rel="icon" href="/images/favicon.webp" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
