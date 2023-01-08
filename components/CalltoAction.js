@@ -24,11 +24,11 @@ export default function CalltoAction(props) {
     <StyledSection id="cta">
       <div className="container text-center">
         <h3 className="mb-5">{props.ctaHeading}</h3>
-        <CtaButton type="button" className="btn btn-dark btn-lg mx-3">
+        <CtaButton type="button" className="btn btn-dark btn-lg m-2">
           <FaApple />
           &nbsp;{props.ctaDownload}
         </CtaButton>
-        <CtaButton type="button" className="btn btn-outline-dark btn-lg mx-3">
+        <CtaButton type="button" className="btn btn-outline-dark btn-lg m-2">
           <FaGooglePlay />
           &nbsp;{props.ctaDownload}
         </CtaButton>
