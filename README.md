@@ -8,7 +8,7 @@ https://tindog-aaron.vercel.app/
 
 ### 安裝套件
 
-把這個專案下載下來後，先輸入
+把這個專案 clone 下來後，先輸入
 
 `npm install`
 
@@ -30,7 +30,7 @@ https://tindog-aaron.vercel.app/
 
 輸入至瀏覽器內，即可在本地端預覽專案。
 
-## 第三方套件
+## 使用的套件
 
 - [Bootstrap 5](https://getbootstrap.com/)
 - [next-i18next](https://github.com/i18next/next-i18next)
